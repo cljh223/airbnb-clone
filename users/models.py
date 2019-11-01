@@ -7,8 +7,8 @@ class User(AbstractUser):
     """ Custom User Model """
 
     GENDER_MALE = "Male"
-    GENDER_FEMALE = "female"
-    GENDER_OTHER = "other"
+    GENDER_FEMALE = "Female"
+    GENDER_OTHER = "Other"
 
     GENDER_CHOICES = (
         (GENDER_MALE, "Mail"),
